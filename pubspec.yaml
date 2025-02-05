@@ -1,0 +1,42 @@
+name: my_flutter_app
+description: A new Flutter project
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^4.0.4 # Updated to the latest version
+
+flutter:
+  assets:
+    - assets/profile.jpg
+    - assets/profile1.jpg
+    - assets/profile2.jpg
+    - assets/profile3.jpg
+    - assets/profile4.jpg
+    - assets/profile5.jpg
+    - assets/profile6.jpg
+    - assets/profile7.jpg
+    - assets/story1.jpg
+    - assets/story2.jpg
+    - assets/story3.jpg
+    - assets/story4.jpg
+    - assets/story5.jpg
+    - assets/story6.jpg
+    - assets/story7.jpg
+    - assets/post1.jpg
+    - assets/post2.jpg
+    - assets/post3.jpg
+    - assets/post4.jpg
+    - assets/post5.jpg
+    - assets/post6.jpg
+    - assets/post7.jpg
+
+
+  uses-material-design: true
